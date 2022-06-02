@@ -1,0 +1,7 @@
+Use gh-pages branch to get the whole project from the main branch
+ng build --prod
+REMOVE /dist directory from .gitignore
+from gh-pages branch  `ng build --base-href "https://neozenweb.github.io/WorldMap/"`
+`ngh --dir dist/d280-project`
+On the github repo settings, set the Page settings to "gh-pages" "main" and save
+Angular project is published 
